@@ -1,0 +1,17 @@
+{
+  "name": "rea",
+  "version": "6.4.0",
+  "description": "Reverse engineer binaries, applications, and runtime behavior with the REA skill and MCP server.",
+  "homepage": "https://morluto.github.io/rea/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexuria/rea"
+  },
+  "license": "MIT",
+  "mcpServers": {
+    "rea": {
+      "command": "npx",
+      "args": ["-y", "rea-agents@latest", "mcp"]
+    }
+  }
+}
